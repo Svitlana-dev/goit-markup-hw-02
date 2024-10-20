@@ -5,22 +5,23 @@
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    color: #2e2f42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .nav-name {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .nav-list {
@@ -65,26 +66,22 @@ body {
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .main {
-    height: 600px;
-    width: 100%;
     background: #2e2f42;
 }
 
 .main-button {
-    border: none;
     cursor: pointer;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
 }
 
@@ -121,12 +118,18 @@ body {
     color: #434455;
 }
 
+.team {
+    background-color: #F4F4FD;
+
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -151,11 +154,16 @@ body {
     color: #434455;
 }
 
+.team-color {
+    background-color: #FFFFFF;
+}
+
 .portf-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
@@ -180,23 +188,25 @@ body {
 }
 
 .foot {
-    width: 100%;
-    height: 312px;
     background: #2e2f42;
 }
 
-.footer-link {
+.foot-name {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    color: #4d5ae5;
+}
+
+.foot-accent {
     color: #f4f4fd;
 }
 
-.footer-text {
+.foot-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
