@@ -120,7 +120,6 @@ body {
 
 .team {
     background-color: #F4F4FD;
-
 }
 
 .team-title {
@@ -135,6 +134,7 @@ body {
 
 .team-list {
     list-style: none;
+    background-color: #FFFFFF;
 }
 
 .team-list-title {
@@ -152,10 +152,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-}
-
-.team-color {
-    background-color: #FFFFFF;
 }
 
 .portf-title {
