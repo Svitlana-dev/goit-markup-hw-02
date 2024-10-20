@@ -134,6 +134,9 @@ body {
 
 .team-list {
     list-style: none;
+}
+
+.team-color {
     background-color: #FFFFFF;
 }
 
